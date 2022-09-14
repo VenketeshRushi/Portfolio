@@ -1,0 +1,51 @@
+.main{
+    width: 100%;
+    border: 5px solid black;
+}
+.example {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1500px;
+  position: relative;
+  border: 1px solid;
+}
+.containermain {
+  position: absolute;
+  top: 0;
+}
+.container1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  border: 2px solid blue;
+  position: absolute;
+  top: 0;
+}
+.container2 {
+  width: 150px;
+  height: 150px;
+  background: red;
+  border-radius: 30px;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+}
+.containermain img{
+    width:60px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containermain1 {
+    position: absolute;
+    top: 0;
+  }
+.containermain1 img{
+    width:60px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

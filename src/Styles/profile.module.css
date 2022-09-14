@@ -1,0 +1,97 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  background: rgb(231, 233, 254);
+  background: linear-gradient(
+    180deg,
+    rgba(231, 233, 254, 1) 36%,
+    rgba(247, 247, 248, 1) 100%
+  );
+  height: 650px;
+  text-align: justify;
+  position: relative;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  height: 350px;
+  font-family: sans-serif;
+}
+.avatar {
+  width: 30%;
+  position: relative;
+}
+.avatar > img {
+  height: 650px;
+  width: max-content;
+}
+.one,
+.two,
+.three {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  width: max-content;
+  height: fit-content;
+}
+.one {
+  position: absolute;
+  left: -90px;
+  top: 190px;
+}
+.two {
+  position: absolute;
+  left: -180px;
+  top: 430px;
+}
+.three {
+  position: absolute;
+  right: -5px;
+  top: 565px;
+}
+.three:hover {
+  box-shadow: 0 3px 5px #ccc;
+}
+.two:hover {
+  box-shadow: 0 3px 5px #ccc;
+}
+.one:hover {
+  box-shadow: 0 3px 5px #ccc;
+}
+.socialicon {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.socialicon > button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.socialicon > button img:nth-child(1) {
+  width: 20px;
+  height: 20px;
+}
+.socialicon > button img:nth-child(2) {
+  width: 30px;
+  height: 30px;
+}
+.socialicon > button img:nth-child(0) {
+  width: 30px;
+  height: 30px;
+}
