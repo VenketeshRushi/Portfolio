@@ -32,7 +32,7 @@ const Profile = () => {
           </h1>
           <h1
             style={{
-              color: "rgb(62,75,255)",
+              color: "rgb(108,99,255)",
               fontSize: "38px",
               fontWeight: "bold",
             }}
@@ -59,13 +59,13 @@ const Profile = () => {
           </div>
           <div className={styles.socialicon}>
             <button>
-              <img src="https://shivam-sharma-portfolio.vercel.app/static/media/Github.b1e14ce74d65a4300933.png" />
+              <img src="https://shivam-sharma-portfolio.vercel.app/static/media/Github.b1e14ce74d65a4300933.png" alt="Github" />
             </button>
             <button>
-              <img src="https://shivam-sharma-portfolio.vercel.app/static/media/twitter.c5b06f8ca489efc1117a.png" />
+              <img src="https://shivam-sharma-portfolio.vercel.app/static/media/twitter.c5b06f8ca489efc1117a.png" alt="twitter"/>
             </button>
             <button>
-              <img src="https://img.icons8.com/fluency/344/linkedin.png" />
+              <img src="https://img.icons8.com/fluency/344/linkedin.png" alt="linkedin" />
             </button>
           </div>
         </div>
@@ -73,13 +73,13 @@ const Profile = () => {
           <img
             className="avatarimg"
             alt="kombou dilane"
-            src="https://shivam-sharma-portfolio.vercel.app/static/media/profile.f75ec2ce69af03dc4391.png"
+            src="https://shivam-sharma-portfolio.vercel.app/static/media/profile.f75ec2ce69af03dc4391.png" alt=""
           />
           <div className={styles.one}>
             <Image
               boxSize="30px"
               objectFit="contain"
-              src="https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png"
+              src="https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png" alt=""
             />
             <Text ml={2} fontSize={15} fontWeight={500}>
               Frontend Developer

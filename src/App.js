@@ -3,6 +3,8 @@ import Courosel from './Pages/Courosel';
 import Navbar from './Pages/Navbar';
 import Profile from './Pages/Profile';
 import Skills from './Pages/Skills';
+import ContactMe from './Pages/ContactMe';
+import Footer from './Pages/Footer';
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Profile/>
       <Skills/>
       <Courosel/>
+      <ContactMe/>
+      <Footer/>
     </div>
   );
 }

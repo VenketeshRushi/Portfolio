@@ -1,0 +1,41 @@
+.footer {
+  width: 100%;
+  height: 60px;
+  padding: 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(108,99,255);
+  color: #fff;
+}
+
+.socialicon {
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.socialicon > button {
+  width: 30px;
+  height: 30px;
+  background-color:transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+.footer{
+  padding: 0px;
+}
+}
+
+@media screen and (max-width: 700px) {
+  .footer{
+    padding: 0px;
+  }
+}
