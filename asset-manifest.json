@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e0a20536.css",
-    "main.js": "/Portfolio/static/js/main.9954b609.js",
+    "main.css": "/Portfolio/static/css/main.ec6c352b.css",
+    "main.js": "/Portfolio/static/js/main.2ae54f62.js",
     "static/js/787.e8c6061e.chunk.js": "/Portfolio/static/js/787.e8c6061e.chunk.js",
+    "static/media/indiegogo2.png": "/Portfolio/static/media/indiegogo2.e7d020a4f187b5fcbe21.png",
+    "static/media/indiegogo1.png": "/Portfolio/static/media/indiegogo1.ae4e93dc925629fdc138.png",
+    "static/media/weatherapp3.png": "/Portfolio/static/media/weatherapp3.4b7c4f15c9f7bbb3e730.png",
+    "static/media/weatherapp2.png": "/Portfolio/static/media/weatherapp2.1fcad2ce6d398d04687f.png",
+    "static/media/weatherapp1.png": "/Portfolio/static/media/weatherapp1.4c8bcc30501a4659cb62.png",
+    "static/media/indiegogo3.png": "/Portfolio/static/media/indiegogo3.8b3bb3ae84787824c1ab.png",
+    "static/media/react.png": "/Portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/indiegogo4.png": "/Portfolio/static/media/indiegogo4.7b0a45f57e823ee2a5e0.png",
+    "static/media/abc.png": "/Portfolio/static/media/abc.6d4684d36d618b85afe2.png",
     "static/media/github.png": "/Portfolio/static/media/github.b1e14ce74d65a4300933.png",
     "static/media/contactus.png": "/Portfolio/static/media/contactus.e5e30c8ce14b3f8fa8e1.png",
+    "static/media/html.png": "/Portfolio/static/media/html.84de5dab5fab27f4161c.png",
+    "static/media/js.jpeg": "/Portfolio/static/media/js.4cf889d0c7029602b15d.jpeg",
+    "static/media/html1.png": "/Portfolio/static/media/html1.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/Portfolio/index.html",
-    "main.e0a20536.css.map": "/Portfolio/static/css/main.e0a20536.css.map",
-    "main.9954b609.js.map": "/Portfolio/static/js/main.9954b609.js.map",
+    "main.ec6c352b.css.map": "/Portfolio/static/css/main.ec6c352b.css.map",
+    "main.2ae54f62.js.map": "/Portfolio/static/js/main.2ae54f62.js.map",
     "787.e8c6061e.chunk.js.map": "/Portfolio/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0a20536.css",
-    "static/js/main.9954b609.js"
+    "static/css/main.ec6c352b.css",
+    "static/js/main.2ae54f62.js"
   ]
 }
