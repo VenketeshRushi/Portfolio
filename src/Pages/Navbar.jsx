@@ -30,12 +30,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <Drawer
-        placement={"right"}
-        onClose={onClose}
-        isOpen={isOpen}
-        size="full"
-      >
+      <Drawer placement={"right"} onClose={onClose} isOpen={isOpen} size="full">
         <DrawerOverlay />
         <DrawerContent textAlign={"center"} background={"#151418"}>
           <DrawerHeader
@@ -47,8 +42,13 @@ const Navbar = () => {
           >
             Venketesh Rushi
           </DrawerHeader>
-          <DrawerBody display={"flex"} alignItems={"center"} justifyContent={"center"} mt="25px">
-            <Stack direction={"column"} spacing={"20px"} alignItems={"center"}>
+          <DrawerBody
+            display={"flex"}
+            alignItems={"center"}
+            justifyContent={"center"}
+            mb="35px"
+          >
+            <Stack direction={"column"} spacing={"18px"} alignItems={"center"}>
               <Box
                 onClick={() => (
                   onClose(),
@@ -58,7 +58,7 @@ const Navbar = () => {
                   }, 800)
                 )}
               >
-                <Text color={"white"} fontWeight={"bold"} fontSize={32}>
+                <Text color={"white"} fontWeight={"bold"} fontSize={30}>
                   About
                 </Text>
               </Box>
@@ -71,7 +71,7 @@ const Navbar = () => {
                   }, 800)
                 )}
               >
-                <Text color={"white"} fontWeight={"bold"} fontSize={32}>
+                <Text color={"white"} fontWeight={"bold"} fontSize={30}>
                   Skills
                 </Text>
               </Box>
@@ -84,11 +84,38 @@ const Navbar = () => {
                   }, 800)
                 )}
               >
-                <Text color={"white"} fontWeight={"bold"} fontSize={32}>
+                <Text color={"white"} fontWeight={"bold"} fontSize={30}>
                   Projects
                 </Text>
               </Box>
             </Stack>
+            <div className={styles.socialicon}>
+              <button>
+                <a target={"_blank"} href="https://github.com/VenketeshRushi">
+                  <img
+                    src="https://shivam-sharma-portfolio.vercel.app/static/media/Github.b1e14ce74d65a4300933.png"
+                    alt="Github"
+                  />
+                </a>
+              </button>
+              <button>
+                <img
+                  src="https://shivam-sharma-portfolio.vercel.app/static/media/twitter.c5b06f8ca489efc1117a.png"
+                  alt="twitter"
+                />
+              </button>
+              <button>
+                <a
+                  target={"_blank"}
+                  href="https://www.linkedin.com/in/venketesh-rushi-423722236/"
+                >
+                  <img
+                    src="https://img.icons8.com/fluency/344/linkedin.png"
+                    alt="linkedin"
+                  />
+                </a>
+              </button>
+            </div>
           </DrawerBody>
           <DrawerFooter borderTopWidth="1px">
             <Button
@@ -98,8 +125,12 @@ const Navbar = () => {
               mr={3}
               onClick={onClose}
               size="lg"
+              _hover={{
+                background: "transparent",
+                color: "white",
+              }}
             >
-              Cancel
+              close
             </Button>
           </DrawerFooter>
         </DrawerContent>
@@ -107,12 +138,8 @@ const Navbar = () => {
       <nav className={styles.navbar}>
         <Stack alignItems={"center"} direction={"row"} spacing={10}>
           {isSmallerThan700 ? (
-            <Button
-              className={styles.btn1}
-              bg="rgb(108,99,255)"
-              onClick={onOpen}
-            >
-              <HamburgerIcon w={6} h={6} color="white" />
+            <Button className={styles.btn1} bg="transparent" onClick={onOpen}>
+              <HamburgerIcon w={7} h={7} />
             </Button>
           ) : (
             ""

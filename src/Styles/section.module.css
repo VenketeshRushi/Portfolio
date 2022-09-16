@@ -80,11 +80,8 @@
 }
 
 .textdata {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
   text-align: left;
+  margin-left: 4px;
 }
 .textdata > h3 {
   color: #333;
@@ -117,6 +114,9 @@
   .projecttitile{
     width: 80%;
   }
+  .carouselItem{
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -125,6 +125,9 @@
   }
   .projecttitile{
     width: 80%;
+  }
+  .carouselItem{
+    width: 400px;
   }
 }
 
@@ -135,6 +138,9 @@
   .projecttitile{
     width: 90%;
   }
+  .carouselItem{
+    width: 450px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -143,5 +149,8 @@
   }
   .projecttitile{
     width: 95%;
+  }
+  .carouselItem{
+    width: 400px;
   }
 }

@@ -53,33 +53,50 @@ const Profile = () => {
                 borderRadius={50}
                 marginTop={2}
               >
-                Hire me
+                <a href="https://www.linkedin.com/in/venketesh-rushi-423722236/">
+                  Hire me
+                </a>
               </Button>
             </a>
           </div>
           <div className={styles.socialicon}>
             <button>
-              <img src="https://shivam-sharma-portfolio.vercel.app/static/media/Github.b1e14ce74d65a4300933.png" alt="Github" />
+              <a target={"_blank"} href="https://github.com/VenketeshRushi">
+              <img
+                src="https://shivam-sharma-portfolio.vercel.app/static/media/Github.b1e14ce74d65a4300933.png"
+                alt="Github"
+              />
+              </a>
+
             </button>
             <button>
-              <img src="https://shivam-sharma-portfolio.vercel.app/static/media/twitter.c5b06f8ca489efc1117a.png" alt="twitter"/>
+              <img
+                src="https://shivam-sharma-portfolio.vercel.app/static/media/twitter.c5b06f8ca489efc1117a.png"
+                alt="twitter"
+              />
             </button>
             <button>
-              <img src="https://img.icons8.com/fluency/344/linkedin.png" alt="linkedin" />
+              <a target={"_blank"} href="https://www.linkedin.com/in/venketesh-rushi-423722236/">
+                <img
+                  src="https://img.icons8.com/fluency/344/linkedin.png"
+                  alt="linkedin"
+                />
+              </a>
             </button>
           </div>
         </div>
         <div className={styles.avatar}>
           <img
             className="avatarimg"
-            alt="kombou dilane"
-            src="https://shivam-sharma-portfolio.vercel.app/static/media/profile.f75ec2ce69af03dc4391.png" alt=""
+            alt=""
+            src="https://shivam-sharma-portfolio.vercel.app/static/media/profile.f75ec2ce69af03dc4391.png"
           />
           <div className={styles.one}>
             <Image
               boxSize="30px"
               objectFit="contain"
-              src="https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png" alt=""
+              src="https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png"
+              alt=""
             />
             <Text ml={2} fontSize={15} fontWeight={500}>
               Frontend Developer

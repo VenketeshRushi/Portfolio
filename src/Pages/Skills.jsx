@@ -16,12 +16,24 @@ let SKILLS_DATA = [
     name: "CSS",
   },
   {
+    img:"https://shivam-sharma-portfolio.vercel.app/static/media/js.4cf889d0c7029602b15d.jpeg",
+    name:"JavaScript",
+  },
+  {
     img: "https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png",
     name: "React",
   },
   {
+    img:"https://shivam-sharma-portfolio.vercel.app/static/media/redux.b3b939c66aecf7d53967.png",
+    name: "Redux",
+  },
+  {
     img: "https://shivam-sharma-portfolio.vercel.app/static/media/node.c6649cb118c1ede849ad.png",
     name: "NodeJs",
+  },
+  {
+    img:"https://shivam-sharma-portfolio.vercel.app/static/media/express.c0da3e38a430d20432f0.png",
+    name:"Express"
   },
   {
     img: "https://shivam-sharma-portfolio.vercel.app/static/media/mongo.7f8d1fa4014d58f7e782.jpg",
