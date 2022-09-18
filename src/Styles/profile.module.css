@@ -105,7 +105,38 @@
   height: 30px;
 }
 
-@media screen and (min-width: 200px) and (max-width: 950px) {
+@media screen and (min-width: 200px) and (max-width: 480px){
+  .profile {
+    align-items: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding-top: 80px;
+  }
+  .one,
+  .two,
+  .three {
+    display: none;
+  }
+  .info {
+    width: 90%;
+    margin: auto;
+  }
+  .avatar {
+    width: 100%;
+  }
+  .avatar > img{
+    height: 400px;
+  }
+  .avatar > img {
+    display: block;
+    margin: auto;
+  }
+  .socialicon{
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 950px) {
   .profile {
     align-items: flex-start;
     flex-direction: column;

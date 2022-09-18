@@ -42,8 +42,23 @@
   width: 30px;
   height: 30px;
 }
+@media all and (min-width: 200px) and (max-width: 480px){
+  .btn1 {
+    display: block;
+    margin-left: 30px;
+  }
+  .navdata {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+  .name{
+    display: none;
+  }
+}
 
-@media all and (min-width: 200px) and (max-width: 750px) {
+@media all and (min-width: 4810px) and (max-width: 750px) {
   .btn1 {
     display: block;
     margin-left: 30px;

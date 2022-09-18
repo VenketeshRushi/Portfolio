@@ -145,7 +145,7 @@ const Navbar = () => {
             ""
           )}
           <Box>
-            <Text fontSize={24} color="rgb(108,99,255)">
+            <Text className={styles.name} fontSize={24} color="rgb(108,99,255)">
               Venketesh
             </Text>
           </Box>

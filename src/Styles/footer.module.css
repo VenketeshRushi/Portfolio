@@ -27,6 +27,14 @@
   margin-left: 10px;
 }
 
+@media screen and (min-width:200px) and (max-width: 480px){
+      .socialicon{
+        display: none;
+      }
+      .footer{
+        width: 100%;
+      }
+}
 
 @media screen and (max-width: 900px) {
 .footer{
