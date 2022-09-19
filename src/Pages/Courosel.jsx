@@ -53,7 +53,7 @@ function Courosel() {
   };
   return (
     <section id="projects">
-      <Modal isOpen={state.isOpenNowindiegogo} onClose={onCloseindiegogo}>
+      <Modal isOpen={state.isOpenNowindiegogo} onClose={onCloseindiegogo} isCentered>
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>IndieGOGO</ModalHeader>
@@ -114,7 +114,7 @@ function Courosel() {
           </ModalFooter>
         </ModalContent>
       </Modal>
-      <Modal isOpen={state.isOpenNow} onClose={onClose}>
+      <Modal isOpen={state.isOpenNow} onClose={onClose} isCentered>
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>SoCloudy</ModalHeader>
