@@ -11,22 +11,33 @@ const Footer = () => {
       </Box>
 
       <div className={styles.socialicon}>
-        <button>
-          <img
-            src="https://shivam-sharma-portfolio.vercel.app/static/media/Github.b1e14ce74d65a4300933.png"
-            alt=""
-          />
-        </button>
-        <button>
-          <img
-            src="https://shivam-sharma-portfolio.vercel.app/static/media/twitter.c5b06f8ca489efc1117a.png"
-            alt=""
-          />
-        </button>
-        <button>
-          <img src="https://img.icons8.com/fluency/344/linkedin.png" alt="" />
-        </button>
-      </div>
+            <button>
+              <a target={"_blank"} href="https://github.com/VenketeshRushi">
+                <img
+                  src={require(`../images/github.png`)}
+                  alt="Github"
+                />
+              </a>
+            </button>
+
+            <button>
+              <a href="mailto:rushivenketsh@gmail.com">
+                <img src={require(`../images/download.png`)} alt="twitter" />
+              </a>
+            </button>
+
+            <button>
+              <a
+                target={"_blank"}
+                href="https://www.linkedin.com/in/venketesh-rushi-423722236/"
+              >
+                <img
+                  src="https://img.icons8.com/fluency/344/linkedin.png"
+                  alt="linkedin"
+                />
+              </a>
+            </button>
+          </div>
     </footer>
   );
 };

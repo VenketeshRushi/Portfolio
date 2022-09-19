@@ -1,24 +1,11 @@
 import { Flex, Image, Avatar, Text, Box, Button } from "@chakra-ui/react";
 import { useInView } from "framer-motion";
 import { useContext, useEffect, useRef } from "react";
-import NavigationContext from "../datamanager/context/navigationContext";
 import styles from "../Styles/profile.module.css";
 
 const Profile = () => {
-  // Get data from the global state
-  const { navigateTo } = useContext(NavigationContext);
-
-  const profileRef = useRef();
-  const isInView = useInView(profileRef);
-
-  useEffect(() => {
-    if (isInView) {
-      navigateTo("home");
-    }
-  }, [isInView]);
-
   return (
-    <section ref={profileRef} id="home">
+    <section id="home">
       <div className={styles.profile}>
         <div className={styles.info}>
           <h1
@@ -46,37 +33,41 @@ const Profile = () => {
             to detalis and the ability to write efficeint code using MERN Stack.
           </Text>
           <div>
-            <a href="https://www.linkedin.com/in/itsurshivam" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/venketesh-rushi-423722236/"
+              target="_blank"
+            >
               <Button
                 colorScheme="red"
                 color={"white"}
                 borderRadius={50}
                 marginTop={2}
               >
-                <a href="https://www.linkedin.com/in/venketesh-rushi-423722236/">
-                  Hire me
-                </a>
+                Hire me
               </Button>
             </a>
           </div>
           <div className={styles.socialicon}>
             <button>
               <a target={"_blank"} href="https://github.com/VenketeshRushi">
-              <img
-                src="https://shivam-sharma-portfolio.vercel.app/static/media/Github.b1e14ce74d65a4300933.png"
-                alt="Github"
-              />
+                <img
+                  src={require(`../images/github.png`)}
+                  alt="Github"
+                />
               </a>
+            </button>
 
-            </button>
             <button>
-              <img
-                src="https://shivam-sharma-portfolio.vercel.app/static/media/twitter.c5b06f8ca489efc1117a.png"
-                alt="twitter"
-              />
+              <a href="mailto:rushivenketsh@gmail.com">
+                <img src={require(`../images/download.png`)} alt="twitter" />
+              </a>
             </button>
+
             <button>
-              <a target={"_blank"} href="https://www.linkedin.com/in/venketesh-rushi-423722236/">
+              <a
+                target={"_blank"}
+                href="https://www.linkedin.com/in/venketesh-rushi-423722236/"
+              >
                 <img
                   src="https://img.icons8.com/fluency/344/linkedin.png"
                   alt="linkedin"
