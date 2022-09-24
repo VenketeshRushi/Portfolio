@@ -1,6 +1,4 @@
-import { Flex, Image, Avatar, Text, Box, Button } from "@chakra-ui/react";
-import { useInView } from "framer-motion";
-import { useContext, useEffect, useRef } from "react";
+import { Image, Text, Button } from "@chakra-ui/react";
 import styles from "../Styles/profile.module.css";
 
 const Profile = () => {

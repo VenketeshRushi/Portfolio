@@ -1,6 +1,5 @@
-import { useInView } from "framer-motion";
-import { useContext, useEffect, useRef, useState } from "react";
-import { Box, Button, Text } from "@chakra-ui/react";
+
+import {  Button,} from "@chakra-ui/react";
 import styles from "../Styles/skill.module.css";
 import SkillItem from "./SkillItem";
 
@@ -59,7 +58,7 @@ const Skills = () => {
 
       <div className={styles.skillsControls}>
         <a
-          href={require("../images/vr.pdf")}
+          href={require("../images/Venketesh Rushi resume.pdf")}
           download={true}
         >
           <Button size="sm" colorScheme="red" color="white" borderRadius={15}>

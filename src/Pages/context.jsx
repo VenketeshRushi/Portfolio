@@ -7,7 +7,10 @@ const initialvalue = {
   isOpenNow: false,
   isOpenNowindiegogo: false,
   isOpenNowmobnav: false,
-  isAuth:false,
+  isOpenNownetflix: false,
+  isOpenNowecom: false,
+  isOpenNowtranslator: false,
+  isAuth: false,
 };
 
 function reducer(state, action) {
@@ -32,9 +35,44 @@ function reducer(state, action) {
     }
     case "closeindiegogo": {
       return {
-        
         ...state,
         isOpenNowindiegogo: false,
+      };
+    }
+    case "opennetflix": {
+      return {
+        ...state,
+        isOpenNownetflix: true,
+      };
+    }
+    case "closenetflix": {
+      return {
+        ...state,
+        isOpenNownetflix: false,
+      };
+    }
+    case "openecom": {
+      return {
+        ...state,
+        isOpenNowecom: true,
+      };
+    }
+    case "closeecom": {
+      return {
+        ...state,
+        isOpenNowecom: false,
+      };
+    }
+    case "opentranslator": {
+      return {
+        ...state,
+        isOpenNowtranslator: true,
+      };
+    }
+    case "closetranslator": {
+      return {
+        ...state,
+        isOpenNowtranslator: false,
       };
     }
     default: {
