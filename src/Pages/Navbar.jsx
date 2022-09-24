@@ -158,19 +158,19 @@ const Navbar = () => {
           width="45%"
         >
           <div className={styles.navdata} onClick={() => handleScroll("home")}>
-            <Text fontSize={20}>About</Text>
+            <Text _hover={{cursor:"pointer"}} fontSize={20}>About</Text>
           </div>
           <div
             className={styles.navdata}
             onClick={() => handleScroll("skills")}
           >
-            <Text fontSize={20}>Skills</Text>
+            <Text _hover={{cursor:"pointer"}} fontSize={20}>Skills</Text>
           </div>
           <div
             className={styles.navdata}
             onClick={() => handleScroll("projects")}
           >
-            <Text fontSize={20}>Projects</Text>
+            <Text _hover={{cursor:"pointer"}} fontSize={20}>Projects</Text>
           </div>
 
           <Button
