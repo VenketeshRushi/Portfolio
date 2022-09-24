@@ -1,0 +1,12 @@
+.github{
+    padding: 5px;
+    margin: auto;
+    max-width: fit-content;
+    margin-bottom: 85px;
+}
+
+@media all and (min-width: 200px) and (max-width: 480px) {
+  .github {
+    display: none;
+  }
+}

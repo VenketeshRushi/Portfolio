@@ -5,7 +5,7 @@ import Profile from './Pages/Profile';
 import Skills from './Pages/Skills';
 import ContactMe from './Pages/ContactMe';
 import Footer from './Pages/Footer';
-
+import Github from './Pages/Github';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Profile/>
       <Skills/>
       <Courosel/>
+      <Github/>
       <ContactMe/>
       <Footer/>
     </div>

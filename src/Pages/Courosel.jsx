@@ -221,8 +221,8 @@ function Courosel() {
             </div>
             <div className={styles.textdata}>
               <p>
-              Web application to show the movies and you can sort movies
-              according to rating of movie.
+                Web application to show the movies and you can sort movies
+                according to rating of movie.
               </p>
               <p>Tech Stack:- HTML,CSS,Javascript</p>
             </div>
@@ -289,11 +289,18 @@ function Courosel() {
             </div>
             <div className={styles.textdata}>
               <p>
-              It's a ecommerce Web-application which allows user to login and
-              add products to cart.
-              IMP Note - For this application to run on your computer you must have to run this command : - json-server --watch db.json --port 8080.
+                It's a ecommerce Web-application which allows user to login and
+                add products to cart.
               </p>
+              <br />
+              <p>
+                IMP Note - For this application to run on your computer you must
+                have to run this command : - json-server --watch db.json --port
+                8080.
+              </p>
+              <br />
               <p>Tech Stack:- HTML,CSS,Javascript,React.js</p>
+
             </div>
             <Stack
               display={"flex"}
@@ -358,8 +365,8 @@ function Courosel() {
             </div>
             <div className={styles.textdata}>
               <p>
-              It is translator app. which translate automaticaly and whenever
-              you type something.
+                It is translator app. which translate automaticaly and whenever
+                you type something.
               </p>
               <p>Tech Stack:- HTML,CSS,Javascript,React.js</p>
             </div>
