@@ -1,30 +1,39 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1ef2908e.css",
-    "main.js": "/Portfolio/static/js/main.1dc6a74f.js",
+    "main.css": "/Portfolio/static/css/main.45417ff6.css",
+    "main.js": "/Portfolio/static/js/main.ed03af56.js",
     "static/js/787.e8c6061e.chunk.js": "/Portfolio/static/js/787.e8c6061e.chunk.js",
+    "static/media/n3.png": "/Portfolio/static/media/n3.9a6fca352d44cad8bf1a.png",
+    "static/media/n1.png": "/Portfolio/static/media/n1.287835778fe1cbb59beb.png",
+    "static/media/n2.png": "/Portfolio/static/media/n2.94cf0d4b000a8a93aa3a.png",
+    "static/media/e1.png": "/Portfolio/static/media/e1.2ef233881664710d8c25.png",
     "static/media/indiegogo2.png": "/Portfolio/static/media/indiegogo2.e7d020a4f187b5fcbe21.png",
     "static/media/indiegogo1.png": "/Portfolio/static/media/indiegogo1.ae4e93dc925629fdc138.png",
     "static/media/weatherapp3.png": "/Portfolio/static/media/weatherapp3.4b7c4f15c9f7bbb3e730.png",
     "static/media/weatherapp2.png": "/Portfolio/static/media/weatherapp2.1fcad2ce6d398d04687f.png",
+    "static/media/e2.png": "/Portfolio/static/media/e2.fdcd0ab30c9dedf0c2f0.png",
     "static/media/weatherapp1.png": "/Portfolio/static/media/weatherapp1.4c8bcc30501a4659cb62.png",
     "static/media/indiegogo3.png": "/Portfolio/static/media/indiegogo3.8b3bb3ae84787824c1ab.png",
+    "static/media/e3.png": "/Portfolio/static/media/e3.0997bb99d69f768febaf.png",
     "static/media/react.png": "/Portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/indiegogo4.png": "/Portfolio/static/media/indiegogo4.7b0a45f57e823ee2a5e0.png",
-    "static/media/vr.pdf": "/Portfolio/static/media/vr.b7a501a3e36d8ff7cedc.pdf",
+    "static/media/Venketesh Rushi resume.pdf": "/Portfolio/static/media/Venketesh Rushi resume.b7a501a3e36d8ff7cedc.pdf",
     "static/media/abc.png": "/Portfolio/static/media/abc.6d4684d36d618b85afe2.png",
+    "static/media/t2.png": "/Portfolio/static/media/t2.70a6a12d9b7f0b9f592f.png",
+    "static/media/t3.png": "/Portfolio/static/media/t3.8a049d89d5f853c0e9e3.png",
+    "static/media/t1.png": "/Portfolio/static/media/t1.9a21db6044f2fb3a3a10.png",
     "static/media/github.png": "/Portfolio/static/media/github.b1e14ce74d65a4300933.png",
     "static/media/contactus.png": "/Portfolio/static/media/contactus.e5e30c8ce14b3f8fa8e1.png",
     "static/media/html.png": "/Portfolio/static/media/html.84de5dab5fab27f4161c.png",
     "static/media/js.jpeg": "/Portfolio/static/media/js.4cf889d0c7029602b15d.jpeg",
     "static/media/html1.png": "/Portfolio/static/media/html1.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/Portfolio/index.html",
-    "main.1ef2908e.css.map": "/Portfolio/static/css/main.1ef2908e.css.map",
-    "main.1dc6a74f.js.map": "/Portfolio/static/js/main.1dc6a74f.js.map",
+    "main.45417ff6.css.map": "/Portfolio/static/css/main.45417ff6.css.map",
+    "main.ed03af56.js.map": "/Portfolio/static/js/main.ed03af56.js.map",
     "787.e8c6061e.chunk.js.map": "/Portfolio/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ef2908e.css",
-    "static/js/main.1dc6a74f.js"
+    "static/css/main.45417ff6.css",
+    "static/js/main.ed03af56.js"
   ]
 }
