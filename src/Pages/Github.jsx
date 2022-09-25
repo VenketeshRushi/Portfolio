@@ -7,7 +7,7 @@ function Github() {
       <Heading
         size={["sm", "md", "lg"]}
         color="rgb(35,34,34)"
-        w={"80%"}
+        w={"75%"}
         margin="auto"
         textAlign={"left"}
         marginTop="50px"
