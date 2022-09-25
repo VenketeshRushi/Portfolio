@@ -78,7 +78,7 @@ const Profile = () => {
           <img
             className="avatarimg"
             alt=""
-            src="https://shivam-sharma-portfolio.vercel.app/static/media/profile.f75ec2ce69af03dc4391.png"
+            src={require("../images/me.png")}
           />
           <div className={styles.one}>
             <Image
