@@ -7,11 +7,12 @@ function Github() {
       <Heading
         size={["sm", "md", "lg"]}
         color="rgb(35,34,34)"
-        w={"70%"}
+        w={"80%"}
         margin="auto"
         textAlign={"left"}
         marginTop="50px"
-        mb={4}
+        mb={3}
+        className={styles.text}
       >
         GitHub Stats
       </Heading>
