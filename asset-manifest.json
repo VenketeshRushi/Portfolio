@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e9678f17.css",
-    "main.js": "/Portfolio/static/js/main.c794a089.js",
+    "main.js": "/Portfolio/static/js/main.2d49fde8.js",
     "static/js/787.e8c6061e.chunk.js": "/Portfolio/static/js/787.e8c6061e.chunk.js",
     "static/media/n3.png": "/Portfolio/static/media/n3.9a6fca352d44cad8bf1a.png",
     "static/media/n1.png": "/Portfolio/static/media/n1.287835778fe1cbb59beb.png",
@@ -18,7 +18,7 @@
     "static/media/e3.png": "/Portfolio/static/media/e3.0997bb99d69f768febaf.png",
     "static/media/react.png": "/Portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/indiegogo4.png": "/Portfolio/static/media/indiegogo4.7b0a45f57e823ee2a5e0.png",
-    "static/media/Venketesh Rushi resume.pdf": "/Portfolio/static/media/Venketesh Rushi resume.b7a501a3e36d8ff7cedc.pdf",
+    "static/media/Venketesh Rushi Resume.pdf": "/Portfolio/static/media/Venketesh Rushi Resume.fd5c88782fd41a6c3f74.pdf",
     "static/media/abc.png": "/Portfolio/static/media/abc.6d4684d36d618b85afe2.png",
     "static/media/t2.png": "/Portfolio/static/media/t2.70a6a12d9b7f0b9f592f.png",
     "static/media/t3.png": "/Portfolio/static/media/t3.8a049d89d5f853c0e9e3.png",
@@ -30,11 +30,11 @@
     "static/media/html1.png": "/Portfolio/static/media/html1.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/Portfolio/index.html",
     "main.e9678f17.css.map": "/Portfolio/static/css/main.e9678f17.css.map",
-    "main.c794a089.js.map": "/Portfolio/static/js/main.c794a089.js.map",
+    "main.2d49fde8.js.map": "/Portfolio/static/js/main.2d49fde8.js.map",
     "787.e8c6061e.chunk.js.map": "/Portfolio/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9678f17.css",
-    "static/js/main.c794a089.js"
+    "static/js/main.2d49fde8.js"
   ]
 }
