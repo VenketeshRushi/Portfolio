@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e9678f17.css",
-    "main.js": "/Portfolio/static/js/main.9f0ff043.js",
+    "main.js": "/Portfolio/static/js/main.c794a089.js",
     "static/js/787.e8c6061e.chunk.js": "/Portfolio/static/js/787.e8c6061e.chunk.js",
     "static/media/n3.png": "/Portfolio/static/media/n3.9a6fca352d44cad8bf1a.png",
     "static/media/n1.png": "/Portfolio/static/media/n1.287835778fe1cbb59beb.png",
@@ -9,6 +9,7 @@
     "static/media/e1.png": "/Portfolio/static/media/e1.2ef233881664710d8c25.png",
     "static/media/indiegogo2.png": "/Portfolio/static/media/indiegogo2.e7d020a4f187b5fcbe21.png",
     "static/media/indiegogo1.png": "/Portfolio/static/media/indiegogo1.ae4e93dc925629fdc138.png",
+    "static/media/me.png": "/Portfolio/static/media/me.65e69f6ce70e7634ad55.png",
     "static/media/weatherapp3.png": "/Portfolio/static/media/weatherapp3.4b7c4f15c9f7bbb3e730.png",
     "static/media/weatherapp2.png": "/Portfolio/static/media/weatherapp2.1fcad2ce6d398d04687f.png",
     "static/media/e2.png": "/Portfolio/static/media/e2.fdcd0ab30c9dedf0c2f0.png",
@@ -29,11 +30,11 @@
     "static/media/html1.png": "/Portfolio/static/media/html1.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/Portfolio/index.html",
     "main.e9678f17.css.map": "/Portfolio/static/css/main.e9678f17.css.map",
-    "main.9f0ff043.js.map": "/Portfolio/static/js/main.9f0ff043.js.map",
+    "main.c794a089.js.map": "/Portfolio/static/js/main.c794a089.js.map",
     "787.e8c6061e.chunk.js.map": "/Portfolio/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9678f17.css",
-    "static/js/main.9f0ff043.js"
+    "static/js/main.c794a089.js"
   ]
 }
