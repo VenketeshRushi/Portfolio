@@ -58,7 +58,7 @@ const Skills = () => {
 
       <div className={styles.skillsControls}>
         <a
-          href={require("../images/Venketesh Rushi resume.pdf")}
+          href={require("../images/Venketesh Rushi Resume.pdf")}
           download={true}
         >
           <Button size="sm" colorScheme="red" color="white" borderRadius={15}>
