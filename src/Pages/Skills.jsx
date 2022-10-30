@@ -1,5 +1,4 @@
 
-import {  Button,} from "@chakra-ui/react";
 import styles from "../Styles/skill.module.css";
 import SkillItem from "./SkillItem";
 
@@ -56,16 +55,6 @@ const Skills = () => {
         })}
       </div>
 
-      <div className={styles.skillsControls}>
-        <a
-          href={require("../images/Venketesh Rushi Resume.pdf")}
-          download={true}
-        >
-          <Button size="sm" colorScheme="red" color="white" borderRadius={15}>
-            Download CV
-          </Button>
-        </a>
-      </div>
     </section>
   );
 };

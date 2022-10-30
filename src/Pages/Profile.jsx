@@ -24,34 +24,31 @@ const Profile = () => {
           >
             Venketsh Rushi
           </h1>
-          <Text fontSize={15}>
+          <Text fontSize={16}>
             A MERN Stack developer. I have a passion for technology and love
             working on new and exciting technologies emerging nowadays. I'm a
             passionate Developer with good communication skills, good attention
             to detalis and the ability to write efficeint code using MERN Stack.
-          </Text>
-          <div>
+          </Text>{" "}
+          <div className={styles.skillsControls}>
             <a
-              href="https://www.linkedin.com/in/venketesh-rushi-423722236/"
-              target="_blank"
+              href={require("../images/Venketesh Rushi Resume.pdf")}
+              download={true}
             >
               <Button
+                size="sm"
                 colorScheme="red"
-                color={"white"}
-                borderRadius={50}
-                marginTop={2}
+                color="white"
+                borderRadius={15}
               >
-                Hire me
+                Download Resume
               </Button>
             </a>
           </div>
           <div className={styles.socialicon}>
             <button>
               <a target={"_blank"} href="https://github.com/VenketeshRushi">
-                <img
-                  src={require(`../images/github.png`)}
-                  alt="Github"
-                />
+                <img src={require(`../images/github.png`)} alt="Github" />
               </a>
             </button>
 
@@ -75,42 +72,7 @@ const Profile = () => {
           </div>
         </div>
         <div className={styles.avatar}>
-          <img
-            className="avatarimg"
-            alt=""
-            src={require("../images/me.png")}
-          />
-          <div className={styles.one}>
-            <Image
-              boxSize="30px"
-              objectFit="contain"
-              src="https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png"
-              alt=""
-            />
-            <Text ml={2} fontSize={15} fontWeight={500}>
-              Frontend Developer
-            </Text>
-          </div>
-          <div className={styles.two}>
-            <Image
-              boxSize="30px"
-              objectFit="contain"
-              src="https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png"
-            />
-            <Text ml={2} fontSize={15} fontWeight={500}>
-              Full Stack Developer
-            </Text>
-          </div>
-          <div className={styles.three}>
-            <Image
-              boxSize="30px"
-              objectFit="contain"
-              src="https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png"
-            />
-            <Text ml={2} fontSize={15} size="sm" fontWeight={500}>
-              Backend Developer
-            </Text>
-          </div>
+          <img className="avatarimg" alt="" src={require("../images/me.jpg")} />
         </div>
       </div>
     </section>
@@ -118,3 +80,36 @@ const Profile = () => {
 };
 
 export default Profile;
+
+
+{/* <div className={styles.one}>
+<Image
+  boxSize="30px"
+  objectFit="contain"
+  src="https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png"
+  alt=""
+/>
+<Text ml={2} fontSize={15} fontWeight={500}>
+  Frontend Developer
+</Text>
+</div>
+<div className={styles.two}>
+<Image
+  boxSize="30px"
+  objectFit="contain"
+  src="https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png"
+/>
+<Text ml={2} fontSize={15} fontWeight={500}>
+  Full Stack Developer
+</Text>
+</div>
+<div className={styles.three}>
+<Image
+  boxSize="30px"
+  objectFit="contain"
+  src="https://shivam-sharma-portfolio.vercel.app/static/media/react.8a6fc0a24a800d1e0f4a.png"
+/>
+<Text ml={2} fontSize={15} size="sm" fontWeight={500}>
+  Backend Developer
+</Text>
+</div> */}

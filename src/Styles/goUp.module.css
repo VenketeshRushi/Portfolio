@@ -1,0 +1,35 @@
+.goUpContainer {
+  position: fixed;
+  bottom: 80px;
+  right: 160px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: rgb(241, 76, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 10;
+  box-shadow: 0 4px 10px #aaa;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 1300px) {
+  .goUpContainer {
+    right: 150px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .goUpContainer {
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .goUpContainer {
+    right: 15px;
+  }
+}

@@ -18,7 +18,6 @@
   display: block;
   font-size: 16px;
   color: rgb(35,34,34);
-  margin-bottom: 0px;
   text-align: left;
 }
 
@@ -28,7 +27,6 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  padding: 30px 0;
 }
 
 .contactMeFirstSection {
@@ -36,7 +34,9 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 18px;
+  gap: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .contactMeFirstSection img {
   height: auto;

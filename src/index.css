@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url("./images/Nunito-Regular.bedc35fb703c0b2d1fd5.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Nunito-Bold";
+  src: url("./images/Nunito-Bold.d5395e91ba6695bfdcb3.ttf");
+}
+
+@font-face {
+  font-family: "Nunito-Medium";
+  src: url("./images/Nunito-Medium.4a2f2bc0b0dcd70052e3.ttf");
+}
+
+@font-face {
+  font-family: "Nunito-Light";
+  src: url("./images/Nunito-Light.ttf");
+}
+
+:root {
+  --primary-color: #3e4bff;
+  --secondary-color: #ef3948;
+  --home-bg-color: #e5e7ff;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito-Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+*{
+  font-family: "Nunito-Regular";
 }

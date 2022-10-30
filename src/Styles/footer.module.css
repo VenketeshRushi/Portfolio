@@ -16,8 +16,6 @@
   justify-content: space-between;
 }
 .socialicon > button {
-  width: 30px;
-  height: 30px;
   background-color:transparent;
   display: flex;
   align-items: center;
@@ -26,6 +24,16 @@
   margin-right: 10px;
   margin-left: 10px;
 }
+.socialicon > button img {
+  width: 30px;
+  height: 25px;
+}
+.socialicon > button:nth-child(3) img{
+  width: 37px;
+  height: 35px;
+  margin-left: -2px;
+}
+
 
 @media screen and (min-width:200px) and (max-width: 480px){
       .socialicon{

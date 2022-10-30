@@ -21,7 +21,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [isSmallerThan700] = useMediaQuery("(max-width: 750px)");
+  const [isSmallerThan700] = useMediaQuery("(max-width: 769px)");
 
   const handleScroll = (target) => {
     const targetElement = document.getElementById(target);
@@ -88,35 +88,23 @@ const Navbar = () => {
                   Projects
                 </Text>
               </Box>
+
+              <div className={styles.skillsControls}>
+                <a
+                  href={require("../images/Venketesh Rushi Resume.pdf")}
+                  download={true}
+                >
+                  <Button
+                    size="sm"
+                    colorScheme="red"
+                    color="white"
+                    borderRadius={15}
+                  >
+                    Download Resume
+                  </Button>
+                </a>
+              </div>
             </Stack>
-            <div className={styles.socialicon}>
-            <button>
-              <a target={"_blank"} href="https://github.com/VenketeshRushi">
-                <img
-                  src={require(`../images/github.png`)}
-                  alt="Github"
-                />
-              </a>
-            </button>
-
-            <button>
-              <a href="mailto:rushivenketsh@gmail.com">
-                <img src={require(`../images/download.png`)} alt="twitter" />
-              </a>
-            </button>
-
-            <button>
-              <a
-                target={"_blank"}
-                href="https://www.linkedin.com/in/venketesh-rushi-423722236/"
-              >
-                <img
-                  src="https://img.icons8.com/fluency/344/linkedin.png"
-                  alt="linkedin"
-                />
-              </a>
-            </button>
-          </div>
           </DrawerBody>
           <DrawerFooter borderTopWidth="1px">
             <Button
@@ -139,7 +127,7 @@ const Navbar = () => {
       <nav className={styles.navbar}>
         <Stack alignItems={"center"} direction={"row"} spacing={10}>
           {isSmallerThan700 ? (
-            <Button className={styles.btn1} bg="transparent" onClick={onOpen}>
+            <Button className={styles.btn1} onClick={onOpen}>
               <HamburgerIcon w={7} h={7} />
             </Button>
           ) : (
@@ -153,26 +141,31 @@ const Navbar = () => {
         </Stack>
         <Box
           display="flex"
-          justifyContent="space-around"
+          justifyContent="space-evenly"
           alignItems="center"
-          width="45%"
+          width="65%"
         >
           <div className={styles.navdata} onClick={() => handleScroll("home")}>
-            <Text _hover={{cursor:"pointer"}} fontSize={20}>About</Text>
+            <Text _hover={{ cursor: "pointer" }} fontSize={20}>
+              About
+            </Text>
           </div>
           <div
             className={styles.navdata}
             onClick={() => handleScroll("skills")}
           >
-            <Text _hover={{cursor:"pointer"}} fontSize={20}>Skills</Text>
+            <Text _hover={{ cursor: "pointer" }} fontSize={20}>
+              Skills
+            </Text>
           </div>
           <div
             className={styles.navdata}
             onClick={() => handleScroll("projects")}
           >
-            <Text _hover={{cursor:"pointer"}} fontSize={20}>Projects</Text>
+            <Text _hover={{ cursor: "pointer" }} fontSize={20}>
+              Projects
+            </Text>
           </div>
-
           <Button
             size="sm"
             bg="transparent"
@@ -183,6 +176,21 @@ const Navbar = () => {
           >
             Contact Me
           </Button>
+          <div className={styles.skillsControls}>
+            <a
+              href={require("../images/Venketesh Rushi Resume.pdf")}
+              download={true}
+            >
+              <Button
+                size="sm"
+                colorScheme="red"
+                color="white"
+                borderRadius={15}
+              >
+                Download Resume
+              </Button>
+            </a>
+          </div>
         </Box>
       </nav>
     </header>

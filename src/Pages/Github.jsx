@@ -5,7 +5,7 @@ function Github() {
   return (
     <>
       <Heading
-        size={["sm", "md", "lg"]}
+        size={"lg"}
         color="rgb(35,34,34)"
         w={"75%"}
         margin="auto"
