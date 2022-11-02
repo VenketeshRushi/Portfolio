@@ -91,7 +91,7 @@ const Navbar = () => {
 
               <div className={styles.skillsControls}>
                 <a
-                  href={require("../images/Venketesh Rushi Resume.pdf")}
+                  href={require("../images/Venketesh-Rushi-Resume.pdf")}
                   download={true}
                 >
                   <Button
@@ -178,7 +178,7 @@ const Navbar = () => {
           </Button>
           <div className={styles.skillsControls}>
             <a
-              href={require("../images/Venketesh Rushi Resume.pdf")}
+              href={require("../images/Venketesh-Rushi-Resume.pdf")}
               download={true}
             >
               <Button

@@ -9,9 +9,8 @@
   position: sticky;
 }
 .btn1 {
-  color: rgb(229,62,62);
+  color: rgb(229, 62, 62);
   border: 2px solid;
-  
 }
 .socialicon {
   position: absolute;
@@ -45,7 +44,6 @@
   height: 30px;
 }
 
-
 @media all and (min-width: 200px) and (max-width: 480px) {
   .btn1 {
     display: block;
@@ -60,7 +58,7 @@
   .name {
     display: none;
   }
-  .skillsControls{
+  .skillsControls {
     display: none;
   }
 }
