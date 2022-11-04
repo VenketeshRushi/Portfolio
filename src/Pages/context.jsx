@@ -7,7 +7,7 @@ const initialvalue = {
   isOpenNow: false,
   isOpenNowindiegogo: false,
   isOpenNowmobnav: false,
-  isOpenNownetflix: false,
+  isOpenNowtmetric: false,
   isOpenNowecom: false,
   isOpenNowtranslator: false,
   isAuth: false,
@@ -39,16 +39,16 @@ function reducer(state, action) {
         isOpenNowindiegogo: false,
       };
     }
-    case "opennetflix": {
+    case "opentmetric": {
       return {
         ...state,
-        isOpenNownetflix: true,
+        isOpenNowtmetric: true,
       };
     }
-    case "closenetflix": {
+    case "closetmetric": {
       return {
         ...state,
-        isOpenNownetflix: false,
+        isOpenNowtmetric: false,
       };
     }
     case "openecom": {

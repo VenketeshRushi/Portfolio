@@ -146,7 +146,7 @@ const Navbar = () => {
           width="65%"
         >
           <div className={styles.navdata} onClick={() => handleScroll("home")}>
-            <Text _hover={{ cursor: "pointer" }} fontSize={20}>
+            <Text _hover={{ cursor: "pointer" , color:"rgb(108,99,255)" }} fontSize={20}>
               About
             </Text>
           </div>
@@ -154,7 +154,7 @@ const Navbar = () => {
             className={styles.navdata}
             onClick={() => handleScroll("skills")}
           >
-            <Text _hover={{ cursor: "pointer" }} fontSize={20}>
+            <Text _hover={{ cursor: "pointer" , color:"rgb(108,99,255)" }} fontSize={20}>
               Skills
             </Text>
           </div>
@@ -162,7 +162,7 @@ const Navbar = () => {
             className={styles.navdata}
             onClick={() => handleScroll("projects")}
           >
-            <Text _hover={{ cursor: "pointer" }} fontSize={20}>
+            <Text _hover={{ cursor: "pointer" , color:"rgb(108,99,255)" }} fontSize={20}>
               Projects
             </Text>
           </div>

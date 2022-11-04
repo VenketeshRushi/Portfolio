@@ -10,7 +10,7 @@ const Profile = () => {
             style={{
               fontSize: "38px",
               fontWeight: "bold",
-              marginBottom: "0px",
+              marginBottom: "-13px",
             }}
           >
             Hi, I Am
