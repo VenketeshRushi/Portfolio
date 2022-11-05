@@ -102,9 +102,8 @@ function Courosel() {
                 <li>Login/SignUp</li>
                 <li>Custom Build Carousel.</li>
                 <li>Resposiive design.</li>
-                <li>.</li>
               </ul>
-              <p>Tech Stack:- HTML, CSS, Javascript, React.js, Chakra</p>
+              <p>Tech Stack:- HTML, CSS, Javascript, React.js, Chakra UI</p>
             </div>
             <Stack
               display={"flex"}
