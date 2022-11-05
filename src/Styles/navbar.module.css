@@ -6,7 +6,9 @@
   height: 55px;
   font-weight: 600;
   background-color: rgb(229, 231, 255);
-  position: sticky;
+  position: fixed;
+  z-index: 90;
+  top: 0;
 }
 .btn1 {
   color: rgb(229, 62, 62);

@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <header>
+    <>
       <Drawer placement={"right"} onClose={onClose} isOpen={isOpen} size="full">
         <DrawerOverlay />
         <DrawerContent textAlign={"center"} background={"#151418"}>
@@ -193,7 +193,7 @@ const Navbar = () => {
           </div>
         </Box>
       </nav>
-    </header>
+    </>
   );
 };
 
