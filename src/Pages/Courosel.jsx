@@ -9,7 +9,6 @@ import {
   ModalFooter,
   ModalBody,
   ModalCloseButton,
-  useDisclosure,
   Stack,
   Button,
   Box,
@@ -22,6 +21,7 @@ function Courosel() {
   const [img1, setimg1] = useState(require(`../images/weatherapp3.png`));
   const [img2, setimg2] = useState(require(`../images/tm.png`));
   const [img4, setimg4] = useState(require(`../images/t3.png`));
+  const [img5, setimg5] = useState(require(`../images/iu2.png`));
 
   const imgarr = [
     require(`../images/indiegogo1.png`),
@@ -51,6 +51,13 @@ function Courosel() {
     require(`../images/t1.png`),
   ];
 
+  const imgarr5 = [
+    require(`../images/iu4.png`),
+    require(`../images/iu3.png`),
+    require(`../images/iu2.png`),
+    require(`../images/iu1.png`),
+  ];
+
   useEffect(() => {
     let i = 0;
     setInterval(() => {
@@ -61,6 +68,7 @@ function Courosel() {
       setimg1(imgarr1[i]);
       setimg2(imgarr2[i]);
       setimg4(imgarr4[i]);
+      setimg5(imgarr5[i]);
       i++;
     }, 4000);
   }, []);
@@ -687,6 +695,189 @@ function Courosel() {
           </ModalFooter>
         </ModalContent>
       </Modal>
+      <Modal
+        isOpen={state.isimgdrive}
+        onClose={() => dispatch({ type: "closeimgdrive" })}
+        isCentered
+      >
+        <ModalOverlay />
+        <ModalContent
+          fontFamily={"Nunito-Regular"}
+          fontWeight={"bold"}
+          color={"black"}
+        >
+          <ModalHeader>Img-Drive</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody>
+            <div>
+              <img className={styles.carouselItemImage} src={img5} alt="img" />
+            </div>
+            <div className={styles.textdata}>
+              <p>
+                It is images uploading web-application.which is like google
+                photos where you can upload and delete images.
+              </p>
+              <h3>Features</h3>
+              <ul>
+                <li>User can Login and Signup.</li>
+                <li>User can upload images and delete images.</li>
+                <li>
+                  All the images for that particular user are displayed in UI.
+                </li>
+              </ul>
+              <p>
+                Tech Stack:- HTML, CSS, Javascript, React.js, <br />
+                Redux, Node.Js, Express, MongoDB
+              </p>
+            </div>
+            <Stack
+              display={"flex"}
+              justifyContent={"space-evenly"}
+              alignItems={"baseline"}
+              flexDirection="row"
+              mt={5}
+              mb={3}
+            >
+              <a
+                target={"_blank"}
+                href="https://github.com/VenketeshRushi/Img-Uploading-Web-App"
+              >
+                <Button
+                  size="sm"
+                  bg="transparent"
+                  color="red"
+                  borderRadius={15}
+                  border="2px solid red"
+                >
+                  Source Code
+                </Button>
+              </a>
+              <a
+                target={"_blank"}
+                href="https://monumental-strudel-d010a9.netlify.app/"
+              >
+                <Button
+                  size="sm"
+                  bg="transparent"
+                  color="red"
+                  borderRadius={15}
+                  border="2px solid red"
+                >
+                  Open Live
+                </Button>
+              </a>
+            </Stack>
+          </ModalBody>
+          <ModalFooter
+            display={"flex"}
+            flexDirection="row"
+            justifyContent={"space-between"}
+            alignItems={"flex-end"}
+          >
+            <Box className={styles.techList}>
+              <div
+                className={styles.techItem}
+                title="HTML"
+                style={{ marginLeft: "0px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="CSS"
+                style={{ marginLeft: "25px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html1.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="JS"
+                style={{ marginLeft: "50px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/js.jpeg`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="React"
+                style={{ marginLeft: "75px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/react.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Redux"
+                style={{ marginLeft: "100px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/redux.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Node.Js"
+                style={{ marginLeft: "120px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/node.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Express"
+                style={{ marginLeft: "150px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/express.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="MongoDB"
+                style={{ marginLeft: "175px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/mongo.jpg`)}
+                  alt="err"
+                />
+              </div>
+            </Box>
+            <Button
+              size="sm"
+              bg="transparent"
+              color="red"
+              borderRadius={15}
+              border="2px solid red"
+              mr={3}
+              onClick={() => dispatch({ type: "closeimgdrive" })}
+            >
+              Close
+            </Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
       <div className={styles.projecttitile}>
         <h1>Projects</h1>
         <h5>
@@ -1066,6 +1257,137 @@ function Courosel() {
             </div>
             <span
               onClick={() => dispatch({ type: "opentranslator" })}
+              className={styles.footer}
+            >
+              View
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth={0}
+                viewBox="0 0 16 16"
+                height={20}
+                width={20}
+                xmlns="http://www.w3.org/2000/svg"
+                style={{ marginLeft: "5px" }}
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div className={styles.carouselItem}>
+          <div>
+            <img className={styles.carouselItemImage} src={img5} alt="img" />
+          </div>
+          <div className={styles.textdata}>
+            <h3>Img-Drive</h3>
+            <p>
+              It is images uploading web-application. <br /> which is like
+              google photos where you can upload and delete images.
+            </p>
+            <p>
+              Tech Stack:- HTML, CSS, Javascript, React.js,
+              <br />
+              Redux, Node.js, Express, MongoDB
+            </p>
+          </div>
+          <div className={styles.footer1}>
+            <div className={styles.techList}>
+              <div
+                className={styles.techItem}
+                title="HTML"
+                style={{ marginLeft: "0px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="CSS"
+                style={{ marginLeft: "25px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html1.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="JS"
+                style={{ marginLeft: "50px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/js.jpeg`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="React"
+                style={{ marginLeft: "75px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/react.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Redux"
+                style={{ marginLeft: "100px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/redux.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Node.Js"
+                style={{ marginLeft: "120px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/node.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Express"
+                style={{ marginLeft: "150px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/express.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="MongoDB"
+                style={{ marginLeft: "175px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/mongo.jpg`)}
+                  alt="err"
+                />
+              </div>
+            </div>
+            <span
+              onClick={() => dispatch({ type: "openimgdrive" })}
               className={styles.footer}
             >
               View

@@ -10,6 +10,7 @@ const initialvalue = {
   isOpenNowtmetric: false,
   isOpenNowecom: false,
   isOpenNowtranslator: false,
+  isimgdrive: false,
   isAuth: false,
 };
 
@@ -73,6 +74,18 @@ function reducer(state, action) {
       return {
         ...state,
         isOpenNowtranslator: false,
+      };
+    }
+    case "openimgdrive": {
+      return {
+        ...state,
+        isimgdrive: true,
+      };
+    }
+    case "closeimgdrive": {
+      return {
+        ...state,
+        isimgdrive: false,
       };
     }
     default: {
