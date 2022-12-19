@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.67610f21.css",
-    "main.js": "/Portfolio/static/js/main.2423f27a.js",
+    "main.js": "/Portfolio/static/js/main.f00be576.js",
     "static/js/787.e8c6061e.chunk.js": "/Portfolio/static/js/787.e8c6061e.chunk.js",
     "static/media/IMG_4701A.jpg": "/Portfolio/static/media/IMG_4701A.4d0965e49fdf2530236a.jpg",
     "static/media/indiegogo2.png": "/Portfolio/static/media/indiegogo2.e7d020a4f187b5fcbe21.png",
@@ -9,7 +9,7 @@
     "static/media/tm3.png": "/Portfolio/static/media/tm3.d49a5a4dc93c673efc7f.png",
     "static/media/weatherapp3.png": "/Portfolio/static/media/weatherapp3.4b7c4f15c9f7bbb3e730.png",
     "static/media/weatherapp2.png": "/Portfolio/static/media/weatherapp2.1fcad2ce6d398d04687f.png",
-    "static/media/Venketesh-Rushi-Resume.pdf": "/Portfolio/static/media/Venketesh-Rushi-Resume.bcafcb6e9be324e144bd.pdf",
+    "static/media/Venketesh-Rushi-Resume.pdf": "/Portfolio/static/media/Venketesh-Rushi-Resume.08f6c24771ffe5bd138d.pdf",
     "static/media/weatherapp1.png": "/Portfolio/static/media/weatherapp1.4c8bcc30501a4659cb62.png",
     "static/media/iu2.png": "/Portfolio/static/media/iu2.a9bb31ab4557c6e0c797.png",
     "static/media/indiegogo3.png": "/Portfolio/static/media/indiegogo3.8b3bb3ae84787824c1ab.png",
@@ -40,11 +40,11 @@
     "static/media/html1.png": "/Portfolio/static/media/html1.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/Portfolio/index.html",
     "main.67610f21.css.map": "/Portfolio/static/css/main.67610f21.css.map",
-    "main.2423f27a.js.map": "/Portfolio/static/js/main.2423f27a.js.map",
+    "main.f00be576.js.map": "/Portfolio/static/js/main.f00be576.js.map",
     "787.e8c6061e.chunk.js.map": "/Portfolio/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67610f21.css",
-    "static/js/main.2423f27a.js"
+    "static/js/main.f00be576.js"
   ]
 }
