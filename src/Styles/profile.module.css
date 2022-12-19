@@ -31,6 +31,7 @@
   height: 450px;
   width: 400px;
   border-radius: 50%;
+  object-fit: contain;
 }
 .one,
 .two,
