@@ -21,7 +21,7 @@ function Courosel() {
   const [img1, setimg1] = useState(require(`../images/weatherapp3.png`));
   const [img2, setimg2] = useState(require(`../images/tm.png`));
   const [img4, setimg4] = useState(require(`../images/t3.png`));
-  const [img5, setimg5] = useState(require(`../images/iu2.png`));
+  const [img5, setimg5] = useState(require(`../images/b2.png`));
 
   const imgarr = [
     require(`../images/indiegogo1.png`),
@@ -52,10 +52,10 @@ function Courosel() {
   ];
 
   const imgarr5 = [
-    require(`../images/iu4.png`),
-    require(`../images/iu3.png`),
-    require(`../images/iu2.png`),
-    require(`../images/iu1.png`),
+    require(`../images/b3.png`),
+    require(`../images/b4.png`),
+    require(`../images/b5.png`),
+    require(`../images/b2.png`),
   ];
 
   useEffect(() => {
@@ -70,7 +70,7 @@ function Courosel() {
       setimg4(imgarr4[i]);
       setimg5(imgarr5[i]);
       i++;
-    }, 4000);
+    }, 5000);
   }, []);
 
   const onCloseindiegogo = () => {
@@ -706,7 +706,7 @@ function Courosel() {
           fontWeight={"bold"}
           color={"black"}
         >
-          <ModalHeader>Img-Drive</ModalHeader>
+          <ModalHeader>Mini-Blog Web-App</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <div>
@@ -714,15 +714,20 @@ function Courosel() {
             </div>
             <div className={styles.textdata}>
               <p>
-                It is images uploading web-application.which is like google
-                photos where you can upload and delete images.
+                Where user can see all the blogs from our website and the
+                members of our website can upload and delete their blogs.
               </p>
               <h3>Features</h3>
               <ul>
-                <li>User can Login and Signup.</li>
-                <li>User can upload images and delete images.</li>
+                <li>User can Login and Signup.(Used JWT Authentication)</li>
                 <li>
-                  All the images for that particular user are displayed in UI.
+                  Member of our website can upload blog and delete blog. <br />{" "}
+                  (Used RBAC)
+                </li>
+                <li>Members can add image to there blog.</li>
+                <li>
+                  All the blogs from all members are shown on homepage so all
+                  users can see all blogs.
                 </li>
               </ul>
               <p>
@@ -740,7 +745,7 @@ function Courosel() {
             >
               <a
                 target={"_blank"}
-                href="https://github.com/VenketeshRushi/Img-Uploading-Web-App"
+                href="https://github.com/VenketeshRushi/Blog-app"
               >
                 <Button
                   size="sm"
@@ -754,7 +759,7 @@ function Courosel() {
               </a>
               <a
                 target={"_blank"}
-                href="https://monumental-strudel-d010a9.netlify.app/"
+                href="https://creative-raindrop-ba1a4e.netlify.app/"
               >
                 <Button
                   size="sm"
@@ -1284,10 +1289,10 @@ function Courosel() {
             <img className={styles.carouselItemImage} src={img5} alt="img" />
           </div>
           <div className={styles.textdata}>
-            <h3>Img-Drive</h3>
+            <h3>Mini-BLog App</h3>
             <p>
-              It is images uploading web-application. <br /> which is like
-              google photos where you can upload and delete images.
+              Where user can see all the blogs from our website and the members
+              of our website can upload and delete their blogs.
             </p>
             <p>
               Tech Stack:- HTML, CSS, Javascript, React.js,
