@@ -12,25 +12,25 @@ const ContactMe = () => {
       <div className={styles.contactMeContent}>
         <div className={styles.contactMeFirstSection}>
           <div>
-            <a href="mailto:rushivenketsh@gmail.com">
+            <a target={"_blank"} href="mailto:rushivenketsh@gmail.com">
               <img src={require(`../images/download.png`)} alt="" />
               <h4>rushivenketsh@gmail.com</h4>
             </a>
           </div>
           <div>
-            <a href="https://github.com/VenketeshRushi">
+            <a target={"_blank"} href="https://github.com/VenketeshRushi">
               <img src={require(`../images/github.png`)} alt="" />
               <h4>@VenketeshRushi</h4>
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/venketesh-rushi-423722236/">
+            <a target={"_blank"} href="https://www.linkedin.com/in/venketesh-rushi-423722236/">
               <img src={require(`../images/download (1).png`)} alt="" />
               <h4>@VenketeshRushi</h4>
             </a>
           </div>
           <div>
-            <a href="tel:+91 8261805608">
+            <a target={"_blank"} href="tel:+91 8261805608">
               <img src={require(`../images/download (2).png`)} alt="" />
               <h4>+91 8261805608</h4>
             </a>
