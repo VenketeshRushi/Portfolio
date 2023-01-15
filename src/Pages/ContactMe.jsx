@@ -30,7 +30,7 @@ const ContactMe = () => {
             </a>
           </div>
           <div>
-            <a target={"_blank"} href="tel:+91 8261805608">
+            <a href="tel:+91 8261805608">
               <img src={require(`../images/download (2).png`)} alt="" />
               <h4>+91 8261805608</h4>
             </a>
