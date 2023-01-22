@@ -70,7 +70,7 @@ function Courosel() {
       setimg4(imgarr4[i]);
       setimg5(imgarr5[i]);
       i++;
-    }, 5000);
+    }, 5500);
   }, []);
 
   const onCloseindiegogo = () => {
@@ -893,6 +893,305 @@ function Courosel() {
       <div className={styles.container}>
         <div className={styles.carouselItem}>
           <div>
+            <img className={styles.carouselItemImage} src={img5} alt="img" />
+          </div>
+          <div className={styles.textdata}>
+            <h3>Mini-BLog App</h3>
+            <p>
+              Where user can see all the blogs from our website and the members
+              of our website can upload and delete their blogs.
+            </p>
+            <p>
+              Tech Stack:- HTML, CSS, Javascript, React.js,
+              <br />
+              Redux, Node.js, Express, MongoDB
+            </p>
+          </div>
+          <div className={styles.footer1}>
+            <div className={styles.techList}>
+              <div
+                className={styles.techItem}
+                title="HTML"
+                style={{ marginLeft: "0px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="CSS"
+                style={{ marginLeft: "25px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html1.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="JS"
+                style={{ marginLeft: "50px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/js.jpeg`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="React"
+                style={{ marginLeft: "75px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/react.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Redux"
+                style={{ marginLeft: "100px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/redux.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Node.Js"
+                style={{ marginLeft: "120px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/node.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Express"
+                style={{ marginLeft: "150px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/express.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="MongoDB"
+                style={{ marginLeft: "175px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/mongo.jpg`)}
+                  alt="err"
+                />
+              </div>
+            </div>
+            <span
+              onClick={() => dispatch({ type: "openimgdrive" })}
+              className={styles.footer}
+            >
+              View
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth={0}
+                viewBox="0 0 16 16"
+                height={20}
+                width={20}
+                xmlns="http://www.w3.org/2000/svg"
+                style={{ marginLeft: "5px" }}
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div className={styles.carouselItem}>
+          <div>
+            <img className={styles.carouselItemImage} src={img1} alt="img" />
+          </div>
+          <div className={styles.textdata}>
+            <h3>SoCloudy</h3>
+            <p>
+              Web application to show the current and upcoming week weather
+              forecast and show map of that city also.
+            </p>
+            <p>Tech Stack:- HTML, CSS, Javascript, React.js</p>
+            <br />
+          </div>
+          <div className={styles.footer1}>
+            <div className={styles.techList}>
+              <div
+                className={styles.techItem}
+                title="HTML"
+                style={{ marginLeft: "0px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="CSS"
+                style={{ marginLeft: "25px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html1.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="JS"
+                style={{ marginLeft: "50px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/js.jpeg`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="React"
+                style={{ marginLeft: "75px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/react.png`)}
+                  alt="err"
+                />
+              </div>
+            </div>
+            <span
+              onClick={() => dispatch({ type: "opensocloudy" })}
+              className={styles.footer}
+            >
+              View
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth={0}
+                viewBox="0 0 16 16"
+                height={20}
+                width={20}
+                xmlns="http://www.w3.org/2000/svg"
+                style={{ marginLeft: "5px" }}
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div className={styles.carouselItem}>
+          <div>
+            <img className={styles.carouselItemImage} src={img4} alt="img" />
+          </div>
+          <div className={styles.textdata}>
+            <h3>Translator App</h3>
+            <p>
+              It is translator web-application. <br /> which translate
+              automaticaly and whenever you type something.
+            </p>
+            <p>Tech Stack:- HTML, CSS, Javascript, React.js</p>
+            <br />
+          </div>
+          <div className={styles.footer1}>
+            <div className={styles.techList}>
+              <div
+                className={styles.techItem}
+                title="HTML"
+                style={{ marginLeft: "0px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="CSS"
+                style={{ marginLeft: "25px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html1.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="JS"
+                style={{ marginLeft: "50px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/js.jpeg`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="React"
+                style={{ marginLeft: "75px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/react.png`)}
+                  alt="err"
+                />
+              </div>
+            </div>
+            <span
+              onClick={() => dispatch({ type: "opentranslator" })}
+              className={styles.footer}
+            >
+              View
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth={0}
+                viewBox="0 0 16 16"
+                height={20}
+                width={20}
+                xmlns="http://www.w3.org/2000/svg"
+                style={{ marginLeft: "5px" }}
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div className={styles.carouselItem}>
+          <div>
             <img className={styles.carouselItemImage} src={img2} alt="img" />
           </div>
           <div className={styles.textdata}>
@@ -1094,305 +1393,6 @@ function Courosel() {
             </div>
             <span
               onClick={() => dispatch({ type: "openindiegogo" })}
-              className={styles.footer}
-            >
-              View
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                strokeWidth={0}
-                viewBox="0 0 16 16"
-                height={20}
-                width={20}
-                xmlns="http://www.w3.org/2000/svg"
-                style={{ marginLeft: "5px" }}
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
-                />
-              </svg>
-            </span>
-          </div>
-        </div>
-        <div className={styles.carouselItem}>
-          <div>
-            <img className={styles.carouselItemImage} src={img1} alt="img" />
-          </div>
-          <div className={styles.textdata}>
-            <h3>SoCloudy</h3>
-            <p>
-              Web application to show the current and upcoming week weather
-              forecast and show map of that city also.
-            </p>
-            <p>Tech Stack:- HTML, CSS, Javascript, React.js</p>
-            <br />
-          </div>
-          <div className={styles.footer1}>
-            <div className={styles.techList}>
-              <div
-                className={styles.techItem}
-                title="HTML"
-                style={{ marginLeft: "0px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/html.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="CSS"
-                style={{ marginLeft: "25px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/html1.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="JS"
-                style={{ marginLeft: "50px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/js.jpeg`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="React"
-                style={{ marginLeft: "75px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/react.png`)}
-                  alt="err"
-                />
-              </div>
-            </div>
-            <span
-              onClick={() => dispatch({ type: "opensocloudy" })}
-              className={styles.footer}
-            >
-              View
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                strokeWidth={0}
-                viewBox="0 0 16 16"
-                height={20}
-                width={20}
-                xmlns="http://www.w3.org/2000/svg"
-                style={{ marginLeft: "5px" }}
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
-                />
-              </svg>
-            </span>
-          </div>
-        </div>
-        <div className={styles.carouselItem}>
-          <div>
-            <img className={styles.carouselItemImage} src={img4} alt="img" />
-          </div>
-          <div className={styles.textdata}>
-            <h3>Translator App</h3>
-            <p>
-              It is translator web-application. <br /> which translate
-              automaticaly and whenever you type something.
-            </p>
-            <p>Tech Stack:- HTML, CSS, Javascript, React.js</p>
-            <br />
-          </div>
-          <div className={styles.footer1}>
-            <div className={styles.techList}>
-              <div
-                className={styles.techItem}
-                title="HTML"
-                style={{ marginLeft: "0px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/html.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="CSS"
-                style={{ marginLeft: "25px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/html1.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="JS"
-                style={{ marginLeft: "50px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/js.jpeg`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="React"
-                style={{ marginLeft: "75px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/react.png`)}
-                  alt="err"
-                />
-              </div>
-            </div>
-            <span
-              onClick={() => dispatch({ type: "opentranslator" })}
-              className={styles.footer}
-            >
-              View
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                strokeWidth={0}
-                viewBox="0 0 16 16"
-                height={20}
-                width={20}
-                xmlns="http://www.w3.org/2000/svg"
-                style={{ marginLeft: "5px" }}
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
-                />
-              </svg>
-            </span>
-          </div>
-        </div>
-        <div className={styles.carouselItem}>
-          <div>
-            <img className={styles.carouselItemImage} src={img5} alt="img" />
-          </div>
-          <div className={styles.textdata}>
-            <h3>Mini-BLog App</h3>
-            <p>
-              Where user can see all the blogs from our website and the members
-              of our website can upload and delete their blogs.
-            </p>
-            <p>
-              Tech Stack:- HTML, CSS, Javascript, React.js,
-              <br />
-              Redux, Node.js, Express, MongoDB
-            </p>
-          </div>
-          <div className={styles.footer1}>
-            <div className={styles.techList}>
-              <div
-                className={styles.techItem}
-                title="HTML"
-                style={{ marginLeft: "0px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/html.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="CSS"
-                style={{ marginLeft: "25px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/html1.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="JS"
-                style={{ marginLeft: "50px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/js.jpeg`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="React"
-                style={{ marginLeft: "75px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/react.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="Redux"
-                style={{ marginLeft: "100px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/redux.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="Node.Js"
-                style={{ marginLeft: "120px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/node.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="Express"
-                style={{ marginLeft: "150px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/express.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="MongoDB"
-                style={{ marginLeft: "175px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/mongo.jpg`)}
-                  alt="err"
-                />
-              </div>
-            </div>
-            <span
-              onClick={() => dispatch({ type: "openimgdrive" })}
               className={styles.footer}
             >
               View
