@@ -1,6 +1,7 @@
 import {
   Box,
   Button,
+  HStack,
   RadioGroup,
   Stack,
   Text,
@@ -17,7 +18,7 @@ import {
   DrawerContent,
 } from "@chakra-ui/react";
 
-import { HamburgerIcon } from "@chakra-ui/icons";
+import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -39,8 +40,24 @@ const Navbar = () => {
             fontSize={"32px"}
             m="0px"
             borderBottomWidth="1px"
+            textAlign={"left"}
           >
-            Venketesh Rushi
+            <HStack justifyContent={"space-between"}>
+              <Text> Venketesh Rushi</Text>
+              <Button
+                bg="rgb(108,99,255)"
+                color="white"
+                variant="outline"
+                onClick={onClose}
+                _hover={{
+                  background: "transparent",
+                  color: "white",
+                }}
+                size="sm"
+              >
+                <CloseIcon w={5} h={5} />
+              </Button>
+            </HStack>
           </DrawerHeader>
           <DrawerBody
             display={"flex"}
@@ -146,7 +163,10 @@ const Navbar = () => {
           width="65%"
         >
           <div className={styles.navdata} onClick={() => handleScroll("home")}>
-            <Text _hover={{ cursor: "pointer" , color:"rgb(108,99,255)" }} fontSize={20}>
+            <Text
+              _hover={{ cursor: "pointer", color: "rgb(108,99,255)" }}
+              fontSize={20}
+            >
               About
             </Text>
           </div>
@@ -154,7 +174,10 @@ const Navbar = () => {
             className={styles.navdata}
             onClick={() => handleScroll("skills")}
           >
-            <Text _hover={{ cursor: "pointer" , color:"rgb(108,99,255)" }} fontSize={20}>
+            <Text
+              _hover={{ cursor: "pointer", color: "rgb(108,99,255)" }}
+              fontSize={20}
+            >
               Skills
             </Text>
           </div>
@@ -162,7 +185,10 @@ const Navbar = () => {
             className={styles.navdata}
             onClick={() => handleScroll("projects")}
           >
-            <Text _hover={{ cursor: "pointer" , color:"rgb(108,99,255)" }} fontSize={20}>
+            <Text
+              _hover={{ cursor: "pointer", color: "rgb(108,99,255)" }}
+              fontSize={20}
+            >
               Projects
             </Text>
           </div>

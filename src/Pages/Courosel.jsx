@@ -17,17 +17,17 @@ import { AuthContext } from "./context";
 
 function Courosel() {
   const { state, dispatch } = useContext(AuthContext);
-  const [img, setimg] = useState(require(`../images/indiegogo2.png`));
+  const [img, setimg] = useState(require(`../images/ni2.png`));
   const [img1, setimg1] = useState(require(`../images/weatherapp3.png`));
   const [img2, setimg2] = useState(require(`../images/tm.png`));
   const [img4, setimg4] = useState(require(`../images/t3.png`));
   const [img5, setimg5] = useState(require(`../images/b2.png`));
 
   const imgarr = [
-    require(`../images/indiegogo1.png`),
-    require(`../images/indiegogo2.png`),
-    require(`../images/indiegogo3.png`),
-    require(`../images/indiegogo4.png`),
+    require(`../images/ni1.png`),
+    require(`../images/ni2.png`),
+    require(`../images/ni3.png`),
+    require(`../images/ni4.png`),
   ];
 
   const imgarr2 = [
@@ -93,7 +93,7 @@ function Courosel() {
           fontWeight={"bold"}
           color={"black"}
         >
-          <ModalHeader>IndieGOGO</ModalHeader>
+          <ModalHeader>Nike Clone</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <div>
@@ -102,16 +102,22 @@ function Courosel() {
             <br />
             <div className={styles.textdata}>
               <p>
-                It is crowdfunding websites that enable interaction between
-                fundraisers and the crowd.
+                It's a MERN Stack E-commerce web application with all the major
+                functionalities
               </p>
               <h3>Features</h3>
               <ul>
-                <li>Login/SignUp</li>
-                <li>Custom Build Carousel.</li>
-                <li>Resposiive design.</li>
+                <li>Login / Sign Up / Reset Password</li>
+                <li>Product Filtering and Sorting</li>
+                <li>Add To Cart And Remove From Cart</li>
+                <li>Wishlist Add and Remove Items</li>
+                <li>Razorpay Payment Gateway</li>
+                <li>Darkmode available</li>
               </ul>
-              <p>Tech Stack:- HTML, CSS, Javascript, React.js, Chakra UI</p>
+              <p>
+                Tech Stack:- HTML, CSS, Javascript, React.js, Redux, Node.js,
+                Express, MongoDB
+              </p>
             </div>
             <Stack
               display={"flex"}
@@ -123,7 +129,7 @@ function Courosel() {
             >
               <a
                 target={"_blank"}
-                href="https://github.com/VenketeshRushi/overconfident-way-1012"
+                href="https://github.com/VenketeshRushi/Nike--Clone"
               >
                 <Button
                   size="sm"
@@ -137,7 +143,7 @@ function Courosel() {
               </a>
               <a
                 target={"_blank"}
-                href="https://loquacious-otter-dcf6e5.netlify.app/"
+                href="https://dynamic-smakager-58d28d.netlify.app/"
               >
                 <Button
                   size="sm"
@@ -204,12 +210,45 @@ function Courosel() {
               </div>
               <div
                 className={styles.techItem}
-                title="Chakra UI"
+                title="Redux"
                 style={{ marginLeft: "100px" }}
               >
                 <img
                   className={styles.techItemImage}
-                  src={require(`../images/abc.png`)}
+                  src={require(`../images/redux.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Node.Js"
+                style={{ marginLeft: "120px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/node.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Express"
+                style={{ marginLeft: "150px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/express.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="MongoDB"
+                style={{ marginLeft: "175px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/mongo.jpg`)}
                   alt="err"
                 />
               </div>
@@ -1024,6 +1063,267 @@ function Courosel() {
         </div>
         <div className={styles.carouselItem}>
           <div>
+            <img className={styles.carouselItemImage} src={img} alt="img" />
+          </div>
+          <div className={styles.textdata}>
+            <h3>Nike Clone</h3>
+            <p>
+              It is a clone Nike Website. It's a MERN Stack E-commerce web
+              application with all the major functionalities
+            </p>
+            <p>
+              Tech Stack:- HTML, CSS, Javascript, React.js, Redux, Node.js,
+              Express, MongoDB
+            </p>
+          </div>
+          <div className={styles.footer1}>
+          <div className={styles.techList}>
+              <div
+                className={styles.techItem}
+                title="HTML"
+                style={{ marginLeft: "0px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="CSS"
+                style={{ marginLeft: "25px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html1.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="JS"
+                style={{ marginLeft: "50px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/js.jpeg`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="React"
+                style={{ marginLeft: "75px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/react.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Redux"
+                style={{ marginLeft: "100px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/redux.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Node.Js"
+                style={{ marginLeft: "120px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/node.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Express"
+                style={{ marginLeft: "150px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/express.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="MongoDB"
+                style={{ marginLeft: "175px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/mongo.jpg`)}
+                  alt="err"
+                />
+              </div>
+            </div>
+            <span
+              onClick={() => dispatch({ type: "openindiegogo" })}
+              className={styles.footer}
+            >
+              View
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth={0}
+                viewBox="0 0 16 16"
+                height={20}
+                width={20}
+                xmlns="http://www.w3.org/2000/svg"
+                style={{ marginLeft: "5px" }}
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div className={styles.carouselItem}>
+          <div>
+            <img className={styles.carouselItemImage} src={img2} alt="img" />
+          </div>
+          <div className={styles.textdata}>
+            <h3>Tmetric Clone</h3>
+            <p>
+              This is the clone of TMetric. we cloned login & signup, homepage,
+              navbar, main app, time tracking, task creation and many more
+            </p>
+            <p>
+              Tech Stack:- HTML, CSS, Javascript, React.js,
+              <br />
+              Redux, Node.js, Express, MongoDB
+            </p>
+          </div>
+          <div className={styles.footer1}>
+            <div className={styles.techList}>
+              <div
+                className={styles.techItem}
+                title="HTML"
+                style={{ marginLeft: "0px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="CSS"
+                style={{ marginLeft: "25px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html1.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="JS"
+                style={{ marginLeft: "50px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/js.jpeg`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="React"
+                style={{ marginLeft: "75px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/react.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Redux"
+                style={{ marginLeft: "100px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/redux.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Node.Js"
+                style={{ marginLeft: "120px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/node.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Express"
+                style={{ marginLeft: "150px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/express.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="MongoDB"
+                style={{ marginLeft: "175px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/mongo.jpg`)}
+                  alt="err"
+                />
+              </div>
+            </div>
+            <span
+              onClick={() => dispatch({ type: "opentmetric" })}
+              className={styles.footer}
+            >
+              View
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth={0}
+                viewBox="0 0 16 16"
+                height={20}
+                width={20}
+                xmlns="http://www.w3.org/2000/svg"
+                style={{ marginLeft: "5px" }}
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div className={styles.carouselItem}>
+          <div>
             <img className={styles.carouselItemImage} src={img1} alt="img" />
           </div>
           <div className={styles.textdata}>
@@ -1190,231 +1490,7 @@ function Courosel() {
             </span>
           </div>
         </div>
-        <div className={styles.carouselItem}>
-          <div>
-            <img className={styles.carouselItemImage} src={img2} alt="img" />
-          </div>
-          <div className={styles.textdata}>
-            <h3>Tmetric Clone</h3>
-            <p>
-              This is the clone of TMetric. we cloned login & signup, homepage,
-              navbar, main app, time tracking, task creation and many more...
-            </p>
-            <p>
-              Tech Stack:- HTML, CSS, Javascript, React.js,
-              <br />
-              Redux, Node.js, Express, MongoDB
-            </p>
-          </div>
-          <div className={styles.footer1}>
-            <div className={styles.techList}>
-              <div
-                className={styles.techItem}
-                title="HTML"
-                style={{ marginLeft: "0px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/html.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="CSS"
-                style={{ marginLeft: "25px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/html1.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="JS"
-                style={{ marginLeft: "50px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/js.jpeg`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="React"
-                style={{ marginLeft: "75px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/react.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="Redux"
-                style={{ marginLeft: "100px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/redux.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="Node.Js"
-                style={{ marginLeft: "120px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/node.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="Express"
-                style={{ marginLeft: "150px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/express.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="MongoDB"
-                style={{ marginLeft: "175px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/mongo.jpg`)}
-                  alt="err"
-                />
-              </div>
-            </div>
-            <span
-              onClick={() => dispatch({ type: "opentmetric" })}
-              className={styles.footer}
-            >
-              View
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                strokeWidth={0}
-                viewBox="0 0 16 16"
-                height={20}
-                width={20}
-                xmlns="http://www.w3.org/2000/svg"
-                style={{ marginLeft: "5px" }}
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
-                />
-              </svg>
-            </span>
-          </div>
-        </div>
-        <div className={styles.carouselItem}>
-          <div>
-            <img className={styles.carouselItemImage} src={img} alt="img" />
-          </div>
-          <div className={styles.textdata}>
-            <h3>Indigogo Clone</h3>
-            <p>
-              It is crowdfunding websites that enable interaction between
-              fundraisers and the crowd.
-            </p>
-            <p>Tech Stack:- HTML, CSS, Javascript, React.js, Chakra UI</p>
-          </div>
-          <div className={styles.footer1}>
-            <div className={styles.techList}>
-              <div
-                className={styles.techItem}
-                title="HTML"
-                style={{ marginLeft: "0px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/html.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="CSS"
-                style={{ marginLeft: "25px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/html1.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="JS"
-                style={{ marginLeft: "50px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/js.jpeg`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="React"
-                style={{ marginLeft: "75px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/react.png`)}
-                  alt="err"
-                />
-              </div>
-              <div
-                className={styles.techItem}
-                title="Chakra UI"
-                style={{ marginLeft: "100px" }}
-              >
-                <img
-                  className={styles.techItemImage}
-                  src={require(`../images/abc.png`)}
-                  alt="err"
-                />
-              </div>
-            </div>
-            <span
-              onClick={() => dispatch({ type: "openindiegogo" })}
-              className={styles.footer}
-            >
-              View
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                strokeWidth={0}
-                viewBox="0 0 16 16"
-                height={20}
-                width={20}
-                xmlns="http://www.w3.org/2000/svg"
-                style={{ marginLeft: "5px" }}
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
-                />
-              </svg>
-            </span>
-          </div>
-        </div>
+     
       </div>
     </section>
   );
