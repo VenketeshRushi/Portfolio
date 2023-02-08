@@ -935,7 +935,7 @@ function Courosel() {
             <img className={styles.carouselItemImage} src={img5} alt="img" />
           </div>
           <div className={styles.textdata}>
-            <h3>Mini-BLog App</h3>
+            <h3>Mini-Blog App</h3>
             <p>
               Where user can see all the blogs from our website and the members
               of our website can upload and delete their blogs.
