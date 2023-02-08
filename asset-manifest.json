@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.dd2b023e.css",
-    "main.js": "/Portfolio/static/js/main.7ff278ba.js",
+    "main.css": "/Portfolio/static/css/main.5f88876f.css",
+    "main.js": "/Portfolio/static/js/main.9e6a08b2.js",
     "static/js/787.e8c6061e.chunk.js": "/Portfolio/static/js/787.e8c6061e.chunk.js",
     "static/media/IMG_4701A.jpg": "/Portfolio/static/media/IMG_4701A.4d0965e49fdf2530236a.jpg",
-    "static/media/indiegogo2.png": "/Portfolio/static/media/indiegogo2.e7d020a4f187b5fcbe21.png",
-    "static/media/indiegogo1.png": "/Portfolio/static/media/indiegogo1.ae4e93dc925629fdc138.png",
     "static/media/b5.png": "/Portfolio/static/media/b5.69cabc37f0079df7801d.png",
     "static/media/tm3.png": "/Portfolio/static/media/tm3.d49a5a4dc93c673efc7f.png",
     "static/media/weatherapp3.png": "/Portfolio/static/media/weatherapp3.4b7c4f15c9f7bbb3e730.png",
@@ -13,19 +11,20 @@
     "static/media/Venketesh-Rushi-Resume.pdf": "/Portfolio/static/media/Venketesh-Rushi-Resume.1d3a5a8df917c595ce6d.pdf",
     "static/media/b3.png": "/Portfolio/static/media/b3.20b339a500c8ffb6b310.png",
     "static/media/weatherapp1.png": "/Portfolio/static/media/weatherapp1.4c8bcc30501a4659cb62.png",
-    "static/media/indiegogo3.png": "/Portfolio/static/media/indiegogo3.8b3bb3ae84787824c1ab.png",
+    "static/media/ni2.png": "/Portfolio/static/media/ni2.675cb463a823182be5ed.png",
+    "static/media/ni1.png": "/Portfolio/static/media/ni1.be5ff56b54572afc2d6c.png",
     "static/media/tm.png": "/Portfolio/static/media/tm.bfc2d59d90e719a17b89.png",
     "static/media/react.png": "/Portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
-    "static/media/indiegogo4.png": "/Portfolio/static/media/indiegogo4.7b0a45f57e823ee2a5e0.png",
+    "static/media/ni4.png": "/Portfolio/static/media/ni4.f4eb3292d161a751cc36.png",
     "static/media/Nunito-Medium.ttf": "/Portfolio/static/media/Nunito-Medium.4a2f2bc0b0dcd70052e3.4a2f2bc0b0dcd70052e3.ttf",
     "static/media/Nunito-Light.ttf": "/Portfolio/static/media/Nunito-Light.0ec468f65958d1263b60.ttf",
     "static/media/Nunito-Regular.ttf": "/Portfolio/static/media/Nunito-Regular.bedc35fb703c0b2d1fd5.bedc35fb703c0b2d1fd5.ttf",
     "static/media/Nunito-Bold.ttf": "/Portfolio/static/media/Nunito-Bold.d5395e91ba6695bfdcb3.d5395e91ba6695bfdcb3.ttf",
+    "static/media/ni3.png": "/Portfolio/static/media/ni3.5b5d32d3915284693ec2.png",
     "static/media/tm2.png": "/Portfolio/static/media/tm2.bbbd8bdd5e9420081972.png",
     "static/media/tm1.png": "/Portfolio/static/media/tm1.3b38fe45ad0cd549f4f5.png",
     "static/media/b2.png": "/Portfolio/static/media/b2.dfecf98684be4db4337e.png",
     "static/media/b4.png": "/Portfolio/static/media/b4.b28211b249fc12035abf.png",
-    "static/media/abc.png": "/Portfolio/static/media/abc.6d4684d36d618b85afe2.png",
     "static/media/t2.png": "/Portfolio/static/media/t2.70a6a12d9b7f0b9f592f.png",
     "static/media/t3.png": "/Portfolio/static/media/t3.8a049d89d5f853c0e9e3.png",
     "static/media/t1.png": "/Portfolio/static/media/t1.9a21db6044f2fb3a3a10.png",
@@ -39,12 +38,12 @@
     "static/media/redux.png": "/Portfolio/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/html1.png": "/Portfolio/static/media/html1.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/Portfolio/index.html",
-    "main.dd2b023e.css.map": "/Portfolio/static/css/main.dd2b023e.css.map",
-    "main.7ff278ba.js.map": "/Portfolio/static/js/main.7ff278ba.js.map",
+    "main.5f88876f.css.map": "/Portfolio/static/css/main.5f88876f.css.map",
+    "main.9e6a08b2.js.map": "/Portfolio/static/js/main.9e6a08b2.js.map",
     "787.e8c6061e.chunk.js.map": "/Portfolio/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd2b023e.css",
-    "static/js/main.7ff278ba.js"
+    "static/css/main.5f88876f.css",
+    "static/js/main.9e6a08b2.js"
   ]
 }
