@@ -22,6 +22,7 @@ function Courosel() {
   const [img2, setimg2] = useState(require(`../images/tm.png`));
   const [img4, setimg4] = useState(require(`../images/t3.png`));
   const [img5, setimg5] = useState(require(`../images/b2.png`));
+  const [img6, setimg6] = useState(require(`../images/bt1.png`));
 
   const imgarr = [
     require(`../images/ni1.png`),
@@ -58,6 +59,13 @@ function Courosel() {
     require(`../images/b2.png`),
   ];
 
+  const imgarr6 = [
+    require(`../images/bt2.png`),
+    require(`../images/bt3.png`),
+    require(`../images/bt4.png`),
+    require(`../images/bt5.png`),
+  ];
+
   useEffect(() => {
     let i = 0;
     setInterval(() => {
@@ -69,6 +77,7 @@ function Courosel() {
       setimg2(imgarr2[i]);
       setimg4(imgarr4[i]);
       setimg5(imgarr5[i]);
+      setimg5(imgarr6[i]);
       i++;
     }, 5500);
   }, []);
@@ -80,6 +89,10 @@ function Courosel() {
   const onClose = () => {
     dispatch({ type: "closesocloudy" });
   };
+
+  const onCloseBus = () => {
+    dispatch({ type: "closebus" });
+  }
   return (
     <section id="projects">
       <Modal
@@ -261,6 +274,190 @@ function Courosel() {
               border="2px solid red"
               mr={3}
               onClick={onCloseindiegogo}
+            >
+              Close
+            </Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
+      <Modal
+        isOpen={state.bus}
+        onClose={onCloseBus}
+        isCentered
+      >
+        <ModalOverlay />
+        <ModalContent
+          fontFamily={"Nunito-Regular"}
+          fontWeight={"bold"}
+          color={"black"}
+        >
+          <ModalHeader>Blue Bus</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody>
+            <div>
+              <img className={styles.carouselItemImage} src={img} alt="img" />
+            </div>
+            <br />
+            <div className={styles.textdata}>
+              <p>
+                It's a MERN Stack Bus Ticket Booking web application with all the major functionalities.
+              </p>
+              <h3>Features</h3>
+              <ul>
+                <li>Login / Sign Up</li>
+                <li>Search Functionality</li>
+                <li>Bus Ticket Booking</li>
+                <li>Filter Buses Based on Types, Time, etc.</li>
+                <li>View Past and Upcoming Tickets</li>
+                <li>Payment Integration with Razorpay</li>
+              </ul>
+              <p>
+                Tech Stack:- HTML, CSS, Javascript, React.js, Redux, Node.js,
+                Express, MongoDB
+              </p>
+            </div>
+            <Stack
+              display={"flex"}
+              justifyContent={"space-evenly"}
+              alignItems={"baseline"}
+              flexDirection="row"
+              mt={5}
+              mb={3}
+            >
+              <a
+                target={"_blank"}
+                href="https://github.com/VenketeshRushi/new-bus"
+              >
+                <Button
+                  size="sm"
+                  bg="transparent"
+                  color="red"
+                  borderRadius={15}
+                  border="2px solid red"
+                >
+                  Source Code
+                </Button>
+              </a>
+              <a
+                target={"_blank"}
+                href="https://64c8934c58159a3cd96ff9cf--rococo-biscuit-257cba.netlify.app/"
+              >
+                <Button
+                  size="sm"
+                  bg="transparent"
+                  color="red"
+                  borderRadius={15}
+                  border="2px solid red"
+                >
+                  Open Live
+                </Button>
+              </a>
+            </Stack>
+          </ModalBody>
+          <ModalFooter
+            display={"flex"}
+            flexDirection="row"
+            justifyContent={"space-between"}
+            alignItems={"flex-end"}
+          >
+            <Box className={styles.techList}>
+              <div
+                className={styles.techItem}
+                title="HTML"
+                style={{ marginLeft: "0px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="CSS"
+                style={{ marginLeft: "25px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html1.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="JS"
+                style={{ marginLeft: "50px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/js.jpeg`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="React"
+                style={{ marginLeft: "75px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/react.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Redux"
+                style={{ marginLeft: "100px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/redux.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Node.Js"
+                style={{ marginLeft: "120px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/node.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Express"
+                style={{ marginLeft: "150px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/express.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="MongoDB"
+                style={{ marginLeft: "175px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/mongo.jpg`)}
+                  alt="err"
+                />
+              </div>
+            </Box>
+            <Button
+              size="sm"
+              bg="transparent"
+              color="red"
+              borderRadius={15}
+              border="2px solid red"
+              mr={3}
+              onClick={onCloseBus}
             >
               Close
             </Button>
@@ -1077,7 +1274,7 @@ function Courosel() {
             </p>
           </div>
           <div className={styles.footer1}>
-          <div className={styles.techList}>
+            <div className={styles.techList}>
               <div
                 className={styles.techItem}
                 title="HTML"
@@ -1169,6 +1366,136 @@ function Courosel() {
             </div>
             <span
               onClick={() => dispatch({ type: "openindiegogo" })}
+              className={styles.footer}
+            >
+              View
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth={0}
+                viewBox="0 0 16 16"
+                height={20}
+                width={20}
+                xmlns="http://www.w3.org/2000/svg"
+                style={{ marginLeft: "5px" }}
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div className={styles.carouselItem}>
+          <div>
+            <img className={styles.carouselItemImage} src={img6} alt="img" />
+          </div>
+          <div className={styles.textdata}>
+            <h3>Blue Bus</h3>
+            <p>
+              It's a MERN Stack Bus Ticket Booking web application with all the major functionalities.
+            </p>
+            <p>
+              Tech Stack:- HTML, CSS, Javascript, React.js, Redux, Node.js,
+              Express, MongoDB
+            </p>
+            <br />
+          </div>
+          <div className={styles.footer1}>
+            <div className={styles.techList}>
+              <div
+                className={styles.techItem}
+                title="HTML"
+                style={{ marginLeft: "0px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="CSS"
+                style={{ marginLeft: "25px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/html1.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="JS"
+                style={{ marginLeft: "50px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/js.jpeg`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="React"
+                style={{ marginLeft: "75px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/react.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Redux"
+                style={{ marginLeft: "100px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/redux.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Node.Js"
+                style={{ marginLeft: "120px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/node.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="Express"
+                style={{ marginLeft: "150px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/express.png`)}
+                  alt="err"
+                />
+              </div>
+              <div
+                className={styles.techItem}
+                title="MongoDB"
+                style={{ marginLeft: "175px" }}
+              >
+                <img
+                  className={styles.techItemImage}
+                  src={require(`../images/mongo.jpg`)}
+                  alt="err"
+                />
+              </div>
+            </div>
+            <span
+              onClick={() => dispatch({ type: "openbus" })}
               className={styles.footer}
             >
               View
@@ -1490,7 +1817,6 @@ function Courosel() {
             </span>
           </div>
         </div>
-     
       </div>
     </section>
   );

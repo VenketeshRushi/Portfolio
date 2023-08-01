@@ -12,6 +12,7 @@ const initialvalue = {
   isOpenNowtranslator: false,
   isimgdrive: false,
   isAuth: false,
+  bus: false
 };
 
 function reducer(state, action) {
@@ -86,6 +87,18 @@ function reducer(state, action) {
       return {
         ...state,
         isimgdrive: false,
+      };
+    }
+    case "openbus": {
+      return {
+        ...state,
+        bus: true,
+      };
+    }
+    case "closebus": {
+      return {
+        ...state,
+        bus: false,
       };
     }
     default: {
