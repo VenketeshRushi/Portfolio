@@ -77,7 +77,7 @@ function Courosel() {
       setimg2(imgarr2[i]);
       setimg4(imgarr4[i]);
       setimg5(imgarr5[i]);
-      setimg5(imgarr6[i]);
+      setimg6(imgarr6[i]);
       i++;
     }, 5500);
   }, []);
@@ -295,7 +295,7 @@ function Courosel() {
           <ModalCloseButton />
           <ModalBody>
             <div>
-              <img className={styles.carouselItemImage} src={img} alt="img" />
+              <img className={styles.carouselItemImage} src={img6} alt="img" />
             </div>
             <br />
             <div className={styles.textdata}>
