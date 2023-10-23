@@ -142,7 +142,7 @@ function Courosel() {
             >
               <a
                 target={"_blank"}
-                href="https://github.com/VenketeshRushi/Nike--Clone"
+                href="https://github.com/VenketeshRushi/ecom-client"
               >
                 <Button
                   size="sm"
@@ -156,7 +156,7 @@ function Courosel() {
               </a>
               <a
                 target={"_blank"}
-                href="https://dynamic-smakager-58d28d.netlify.app/"
+                href="https://ecom-client-five.vercel.app/"
               >
                 <Button
                   size="sm"
